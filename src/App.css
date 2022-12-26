@@ -10,20 +10,18 @@
 
 body{
     background-image: url("img/Messi.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: cover;
 }
 
 .calculadora{
     display: flex;
     background-color: rgba(0, 0, 0, 0.534);
-    box-shadow: 3px 3px 0px rgba(255, 255, 255, 0.715);
-    border: 10px outset #fff;
+    border: 10px outset rgb(176, 176, 176);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 350px;
-    height: 80vh;
+    height: 600px;
     border-radius: 50px;
     margin: 100px 45px;
     padding: 20px;
@@ -33,7 +31,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1px 1px;
     width: 350px;
-    height: 15%;
+    height: 80px;
 }
